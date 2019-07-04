@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import NavBar from './components/NavBar';
+import Instructions from './components/Instructions';
+import Wrapper from "./components/Wrapper";
+import ImageWrapper from "./components/ImagePanel/ImageWrapper"
+// import Title from "./components/Title";
+import images from "./friends.json"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component{
+  state ={
+   images: images,
+   score: 0,
+   topScore: 0,
+   totalScore: 0,
+   imagesClick: [],
+   messageClick: "Click an image to start",
+
+  }
+
+
+  render(){
+    return (
+      <>
+      <NavBar />
+      <Instructions />
+      <Wrapper>
+      <ImageWrapper images={this.state.images}/>
+      </Wrapper>
+      </>
+    )
+  }
 }
+
+
 
 export default App;
