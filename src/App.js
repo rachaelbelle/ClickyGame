@@ -6,6 +6,7 @@ import ImageWrapper from "./components/ImagePanel/ImageWrapper"
 // import Title from "./components/Title";
 import images from "./friends.json"
 
+
 class App extends React.Component{
   state ={
    images: images,

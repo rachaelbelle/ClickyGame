@@ -13,5 +13,50 @@
     "id": 3,
     "image":
       "../images/MacReady.jpg"
+  },
+  {
+    "id": 4,
+    "image":
+      "../images/CaptainRon.jpg"
+  },
+  {
+    "id": 5,
+    "image":
+      "../images/Cash.jpg"
+  },
+  {
+    "id": 6,
+    "image":
+      "../images/Overboard.jpg"
+  },
+  {
+    "id": 7,
+    "image":
+      "../images/Soldier.jpg"
+  },
+  {
+    "id": 8,
+    "image":
+      "../images/StarGate.jpg"
+  },
+  {
+    "id": 9,
+    "image":
+      "../images/StuntManMike.jpg"
+  },
+  {
+    "id": 10,
+    "image":
+      "../images/Swanson.jpg"
+  },
+  {
+    "id": 11,
+    "image":
+      "../images/UsedCars.jpg"
+  },
+  {
+    "id": 12,
+    "image":
+      "../images/WyattEarp.jpg"
   }
 ]
