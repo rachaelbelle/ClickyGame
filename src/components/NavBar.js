@@ -3,13 +3,13 @@ import "./style.css";
 
 const NavBar = props => {
   return (
-    <div className="NavBar">
-      <div className="score">
-      Score {props.score}  Message {props.message}  Top Score {props.topScore}
-      </div>
-      {/* <ul className="score">Score {props.score}</ul>
-      <ul className="score">Message {props.message}</ul>
-      <ul className="score">Top Score {props.topScore}</ul> */}
+    <div className="NavBar row">
+      {/* <div className="score">
+      Score {props.score}  Message {props.message} Top Score {props.topScore}
+      </div> */}
+      <div className="score col-md-3">Score {props.score}</div>
+      <div className="score col-md-6">Message {props.message}</div>
+      <div className="score col-md-3">Top Score {props.topScore}</div>
     </div>
   );
 };
