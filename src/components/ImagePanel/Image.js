@@ -1,8 +1,12 @@
 import React from "react";
 import "./style.css";
 
-function Image({image, name, id}) {
-  return <img src={image} alt={name} className="Kurt"></img>
-}
+const Image = ({ image, name, onHandleShuffle, id }) => {
+  return (
+    <div>
+      <img src={image} alt={name} onClick={() => onHandleShuffle(id)}  className="Kurt"/>
+    </div>
+  );
+};
 
 export default Image;

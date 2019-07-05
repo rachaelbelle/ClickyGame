@@ -2,7 +2,7 @@ import React from "react";
 import Image from './Image.js'
 import "./style.css";
 
-function ImageWrapper({images, Shuffle}) {
+function ImageWrapper({images, onHandleShuffle}) {
 const imagesRender = images.map(image=>{
    return(
     <Image className="wrapper"
@@ -10,7 +10,7 @@ const imagesRender = images.map(image=>{
     id={image.id}
     name={image.name}
     image={image.image}
-    onHandleSuffle={Shuffle}/>
+    onHandleShuffle={onHandleShuffle}/>
    )
  })
  return <div>{imagesRender}</div>
