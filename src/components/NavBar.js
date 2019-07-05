@@ -4,9 +4,12 @@ import "./style.css";
 const NavBar = props => {
   return (
     <div className="NavBar">
-      <span>Score {props.score}</span>
-      <span>Message {props.message}</span>
-      <span>Top Score{props.topScore}</span>
+      <div className="score">
+      Score {props.score}  Message {props.message}  Top Score {props.topScore}
+      </div>
+      {/* <ul className="score">Score {props.score}</ul>
+      <ul className="score">Message {props.message}</ul>
+      <ul className="score">Top Score {props.topScore}</ul> */}
     </div>
   );
 };

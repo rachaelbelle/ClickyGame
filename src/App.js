@@ -2,8 +2,10 @@ import React from "react";
 import NavBar from './components/NavBar';
 import Instructions from './components/Instructions';
 import Wrapper from "./components/Wrapper";
-import ImageWrapper from "./components/ImagePanel/ImageWrapper"
-import images from "./friends.json"
+import ImageWrapper from "./components/ImagePanel/ImageWrapper";
+import Footer from "./components/Footer";
+import images from "./friends.json";
+import "./components/style.css";
 
 
 class App extends React.Component {
@@ -31,7 +33,7 @@ class App extends React.Component {
       this.setState({
         score: imagesClick.length,
         totalScore: this.state.topScore,
-        message: 'You guessed correctly!'
+        message: ' You guessed correctly! '
       });
       // random generating image for all images
       let i = images.length,
@@ -48,7 +50,7 @@ class App extends React.Component {
         imagesClick: [],
         score: 0,
         totalScore: this.state.topScore,
-        message: 'You guessed incorrectly!'
+        message: ' You guessed incorrectly! '
       });
     }
   };
@@ -69,6 +71,7 @@ class App extends React.Component {
             onHandleShuffle={this.onHandleShuffle}
             images={this.state.images} />
         </Wrapper>
+        <Footer />
       </>
     )
   }
