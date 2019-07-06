@@ -2,61 +2,61 @@
   {
     "id": 1,
     "image":
-      "../images/Snake.jpg"
+      "/images/Snake.jpg"
   },
   {
     "id": 2,
     "image":
-      "../images/Jack.jpg"
+      "/images/Jack.jpg"
   },
   {
     "id": 3,
     "image":
-      "../images/MacReady.jpg"
+      "/images/MacReady.jpg"
   },
   {
     "id": 4,
     "image":
-      "../images/CaptainRon.jpg"
+      "/images/CaptainRon.jpg"
   },
   {
     "id": 5,
     "image":
-      "../images/Cash.jpg"
+      "/images/Cash.jpg"
   },
   {
     "id": 6,
     "image":
-      "../images/Overboard.jpg"
+      "/images/Overboard.jpg"
   },
   {
     "id": 7,
     "image":
-      "../images/Soldier.jpg"
+      "/images/Soldier.jpg"
   },
   {
     "id": 8,
     "image":
-      "../images/StarGate.jpg"
+      "/images/StarGate.jpg"
   },
   {
     "id": 9,
     "image":
-      "../images/StuntManMike.jpg"
+      "/images/StuntManMike.jpg"
   },
   {
     "id": 10,
     "image":
-      "../images/Swanson.jpg"
+      "/images/Swanson.jpg"
   },
   {
     "id": 11,
     "image":
-      "../images/UsedCars.jpg"
+      "/images/UsedCars.jpg"
   },
   {
     "id": 12,
     "image":
-      "../images/WyattEarp.jpg"
+      "/images/WyattEarp.jpg"
   }
 ]
