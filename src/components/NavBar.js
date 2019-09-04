@@ -9,7 +9,7 @@ const NavBar = props => {
       </div> */}
       <div className="score col-md-3">Score {props.score}</div>
       <div className="score col-md-5">Message {props.message}</div>
-      <div className="score col-md-3">Top Score {props.topScore}</div>
+      <div className="score col-md-3 offset-col-md-2">Top Score {props.topScore}</div>
     </div>
   );
 };
