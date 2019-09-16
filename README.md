@@ -9,32 +9,14 @@ Kurt Russell Clicky Game.  It's a memory game.  Don't click the same Kurt twice!
 
 Should you be successful, you'll score a 12 out of 12.
 
-## How it works:
-*
-*
-*
-*
-
 ---------------------------------------------------------------------------------------
 <br>
 
 <kbd>
-  <img src="" />
-</kbd>
-
-<kbd>
-  <img src="" />
+  <img src="public/images/ClickyGame.png" />
 </kbd>
 
 
-## Libraries:
-*
-*
+## Good Luck!
 
-## Unit Testing:
-*
-*
-
-## Future Improvements:
-*
-*
+While Kurt is handsome and distracting, I believe you can do this.
