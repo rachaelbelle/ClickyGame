@@ -1,4 +1,4 @@
-### Clicky Game 🥢🧐🚗
+### Clicky Game 🥢🧐🚚
 
 https://rachaelbelle.github.io/ClickyGame/
 
